@@ -1,0 +1,104 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+:root {
+  --nearblack: #081418;
+  --darkgrey: #333;
+  --lightgrey: #dcdcdc;
+  --brown: #5c4738;
+  --darkgreen: #3f503a;
+  --medgreen: #53532e;
+  --lightgreen: #9faa58;
+  --parchment: #f6f5ed;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  background: var(--darkgrey);
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 80%
+    ),
+    url(./assets/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-content {
+  height: 40vh;
+}
+
+.logo {
+  font-family: "Staatliches", cursive;
+  font-size: calc(1.2rem + 1vw);
+}
+
+h1 {
+  text-shadow: 0.1rem 0.1rem 1.3rem black;
+}
+
+section {
+  background: var(--parchment);
+}
+
+.bi {
+  font-size: 2rem;
+}
+
+.secondary {
+  color: var(--lightgrey);
+  text-transform: uppercase;
+}
+
+.quote-1 {
+  background: var(--darkgreen);
+}
+
+.quote-2 {
+  background: var(--brown);
+}
+
+.quote-3 {
+  background: var(--nearblack);
+}
+
+.about,
+footer {
+  background: var(--medgreen);
+}
+
+.button {
+  padding: 1rem 2rem;
+  border: 0.1rem solid var(--lightgreen);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.filled {
+  background: var(--lightgreen);
+  color: ghostwhite;
+}
+
+.outlined {
+  background: none;
+  color: var(--lightgreen);
+}
+
+footer li {
+  margin: 1rem 0;
+}
+
+input {
+  opacity: 0.2;
+}
+
+footer .bi {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
